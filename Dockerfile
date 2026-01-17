@@ -1,7 +1,6 @@
-FROM n8nio/n8n:2.3.4
+FROM n8nio/n8n
 
 # Cloud Run 預設監聽 8080 端口
 ENV N8N_PORT=5678
-ENV N8N_PROTOCOL=https
 
 EXPOSE 5678
