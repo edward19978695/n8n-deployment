@@ -12,3 +12,5 @@ RUN mkdir -p /home/node/.n8n/nodes \
 USER node
 
 EXPOSE 5678
+
+CMD ["n8n"]
