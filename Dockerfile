@@ -1,7 +1,7 @@
 FROM n8nio/n8n:2.0.3
 
 # Cloud Run 預設監聽 8080 端口
-ENV N8N_PORT=5678
+ENV N8N_PORT=$PORT
 
 # USER root
 # RUN mkdir -p /home/node/.n8n/nodes \ 
