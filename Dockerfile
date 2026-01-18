@@ -2,6 +2,8 @@ FROM docker.n8n.io/n8nio/n8n:2.0.3
 
 # Cloud Run 預設監聽 8080 端口
 ENV N8N_PORT=$PORT
+ENV HOST=0.0.0.0
+ENV N8N_HOST=0.0.0.0
 
 # USER root
 # RUN mkdir -p /home/node/.n8n/nodes \ 
