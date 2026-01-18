@@ -1,4 +1,4 @@
-FROM docker.n8n.io/n8nio/n8n:2.0.3
+FROM n8nio/n8n
 
 # Cloud Run 預設監聽 8080 端口
 ENV N8N_PORT=$PORT
