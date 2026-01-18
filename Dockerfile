@@ -1,4 +1,4 @@
-FROM n8nio/n8n
+FROM n8nio/n8n:2.3.6
 
 # Cloud Run 預設監聽 8080 端口
 ENV N8N_PORT=$PORT
